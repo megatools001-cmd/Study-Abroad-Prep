@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Study Abroad | Home</title>
+  <style>
+    /* Global Theme */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #F5F7FA;
+      color: #333;
+    }
+    header {
+      background: #0047AB;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: white;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      margin: 0;
+      padding: 0;
+    }
+    nav ul li {
+      margin-left: 20px;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    nav ul li a:hover {
+      color: #FFD700;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+      background: linear-gradient(to right, #0047AB, #003380);
+      color: white;
+    }
+    .hero h2 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      font-size: 18px;
+    }
+
+    .sections {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 40px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: transform 0.2s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card h3 {
+      color: #0047AB;
+    }
+    .card a {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 15px;
+      background: #0047AB;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+    .card a:hover {
+      background: #FFD700;
+      color: #0047AB;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #1A1A1A;
+      color: white;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Study Abroad Prep</h1>
+    <nav>
+      <ul>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="country.html">Country</a></li>
+        <li><a href="notes.html">Notes</a></li>
+        <li><a href="mistakes.html">Mistakes</a></li>
+        <li><a href="pte-ielts.html">PTE & IELTS</a></li>
+        <li><a href="integration.html">Integration</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Your Complete Study Abroad Preparation Portal</h2>
+    <p>Practice interviews, prepare for PTE & IELTS, review mistakes, and keep notes – all in one place.</p>
+  </section>
+
+  <section class="sections">
+    <div class="card">
+      <h3>Login / Signup</h3>
+      <p>Access your account and continue your preparation.</p>
+      <a href="login.html">Go</a>
+    </div>
+    <div class="card">
+      <h3>Dashboard</h3>
+      <p>Central hub for all your study abroad tools.</p>
+      <a href="dashboard.html">Go</a>
+    </div>
+    <div class="card">
+      <h3>Country Selection</h3>
+      <p>Choose your target country and prepare accordingly.</p>
+      <a href="country.html">Go</a>
+    </div>
+    <div class="card">
+      <h3>Notes</h3>
+      <p>Save your personal notes and track progress.</p>
+      <a href="notes.html">Go</a>
+    </div>
+    <div class="card">
+      <h3>Past Mistakes</h3>
+      <p>Review your mistakes and improve with practice.</p>
+      <a href="mistakes.html">Go</a>
+    </div>
+    <div class="card">
+      <h3>PTE & IELTS</h3>
+      <p>Practice speaking, writing, listening, and reading modules.</p>
+      <a href="pte-ielts.html">Go</a>
+    </div>
+    <div class="card">
+      <h3>Integration</h3>
+      <p>Experience all tools combined in one seamless interface.</p>
+      <a href="integration.html">Go</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Study Abroad Prep | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
